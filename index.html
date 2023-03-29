@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apple Landing Page</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="div-logo">
+                <a href="#"><img src="images/logo.png" class="logo"></a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h1>IPHONE 13 PRO MAX</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque autem perspiciatis ut error, dicta officiis illo velit eos iste deleniti.</p>
+                <div class="button">
+                        <button><a href="#">All Products</a></button>
+                </div>
+            </div>
+            <div class="img">
+                <img id="main-img" src="images/0.png" alt="">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="changePhone(this.src); changeColor('#0D0D0D') " src="images/0.png">
+            <img onclick="changePhone(this.src); changeColor('#247ec8') " src="images/1.png">
+            <img onclick="changePhone(this.src); changeColor('#485460') " src="images/2.png">
+            <img onclick="changePhone(this.src); changeColor('#ffc048') " src="images/3.png">
+            <img onclick="changePhone(this.src); changeColor('#ff3f34') " src="images/4.png">
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
